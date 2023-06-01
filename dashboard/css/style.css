@@ -1,0 +1,197 @@
+
+:root {
+    --red: #BE1622;  /*اللون الاساسي للموقع*/
+    --greyWhite: #DDDDDD; /*سكني فاتح للحدود والفوتير*/
+    --dullBlack: #4B4B4B; /*اسود باهت للكتابة*/
+    --back: #f8f6f6; /*سكني فاتح للخلفيات*/
+  }
+*{
+  font-family: 'Markazi Text', serif;
+ }
+  /****************************************start home page****************************************/
+  /*start sign*/
+  .sign{
+    height: 100vh;
+  }
+  .sign_content{
+    width: 40%;
+    margin-right: 30%;
+    margin-top: 3%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(204, 204, 204);
+    padding: 50px;
+    margin-bottom: 5%;
+  }
+ .sign button {
+    background-color: var(--red);
+    border-color: var(--red);
+    color: white;
+    margin-right: 50px;
+    margin-top: 20px;
+    transition: all 0.5s;
+    font-size: 19px;
+  }
+  .sign input{
+    margin-top: 20px;
+  }
+  .modal-footer{
+    margin-left:200px;
+    margin-top: 20px;
+
+  }
+  .sign button:hover{
+    background-color: var(--red);
+    border-color: var(--red);
+    color: white;
+  }
+  .sign ul {
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color: var(--red);
+  }
+  .btn-check:focus+.btn, .btn:focus {
+    color: white;
+    background-color: var(--red);
+    border-color: var(--red);
+    outline: 0;
+  }
+  .sign .nav-link {
+    color: var(--red);
+    margin-bottom: 30px;
+    margin-right: 50px;
+  }
+  /*end sign*/
+
+  /*start index*/
+
+    /*start navbar*/
+
+    .navbar{
+      background-color: var(--red);
+      padding-top: 10px;
+      height: 70px;
+    }
+    .navbar img{
+      position:absolute;
+      height: 230%;
+      width: 8%;
+      margin-top: -43px;
+      margin-right: 3%;
+      box-shadow: 2px 2px 10px var(--dullBlack);
+    }
+    .navbar a{
+      color: white;
+      font-size: 25px;
+    }
+     @media (max-width: 992px) { 
+      .navbar img{
+        visibility: hidden;
+      }
+    }
+    /*end navbar*/
+    .sec{
+      margin-top: 20px;
+      margin-right: 70px;
+      border: var(--greyWhite) 3px solid;
+      border-radius: 20px;
+      height: 150px;
+      transition: all 0.5s;
+
+    }
+    .sec:hover{
+      margin-top: 15px;
+      box-shadow: 0px 0px 24px rgb(158, 157, 157);
+    }
+    .sec h3{
+      font-size: 40px;
+      color: var(--red);
+      font-weight: 500;
+      align-items: center;
+      text-align: center;
+      padding-top: 40px;
+      padding-right: 10px;
+    }
+    .sec img{
+      padding-top: 20px;
+    }
+    .sec a{
+      text-decoration: none;
+    }
+   
+  /*end index*/
+
+  .content{
+    padding-top: 90px;
+    margin-right: 100px;
+}
+  .orders{
+    width: 150px;
+    background-color: var(--back);
+    margin: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--dullBlack);
+    border-radius: 20px;
+    transition: all 0.2s;
+  }
+  .orders:hover{
+    box-shadow: 0px 0px 15px rgb(158, 157, 157);
+  }
+  .orders a{
+    color: var(--dullBlack);
+    text-decoration: none;
+  }
+  .orders a.del{
+    color: white;
+  }
+/*start up*/
+.up .btn{
+  display: none;
+  position: fixed;
+  background-color: var(--red);
+  border-color: var(--red);
+  color: white;
+  height: 60px;
+  width: 60px;
+  bottom: 20px;
+  right: 30px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 18px;
+  box-shadow: #4B4B4B 0px 0px 10px 0;
+}
+/*end up*/
+
+.add, .update{
+    width: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    padding: 30px;
+    padding-top: 15px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgb(204, 204, 204);
+}
+.add h3 , .update h3{
+    color: var(--red);
+    text-align: center;
+}
+.add .btn , .update .btn{
+    background-color: var(--red);
+    border-color: var(--red);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.add button , .update button{
+  margin-right: 35%;
+}
+.content .nav-link{
+  color: #4B4B4B;
+}
